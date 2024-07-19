@@ -78,4 +78,5 @@ USB도 꼿으면 자동으로 실행되는데 이러한 점 때문에 군대 컴
 
 NTFS 지원 : 약자가 New Technology File system임... 엔지니어들의 작명 센스 ㄷㄷㄷ  
 bitlocker, pcr7 binding이 이러한 보안 기능에 해당한다.  
-컴퓨터관리(ctrl + r + compmg
+컴퓨터관리(ctrl + r + compmgmt.msc)  
+compmgmt.msc : (comp)uter(m)a(g)e(m)en(t).(m)icro(s)oft(c)osole의 약자인 것 같다.
