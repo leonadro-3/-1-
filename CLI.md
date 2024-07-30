@@ -28,7 +28,12 @@ echo 5
 ```
 
 > on을 했을 때는 한줄에 하나씩 실행되어 결과가 표시되고 off을 했을 때는 한번에 남은 줄들을 실행한 결과를 모두 표시한다.
+
 ![1](https://github.com/user-attachments/assets/50ce01f6-a03b-49cd-8a89-9ee4501d0d4e)
+
+ctrl + shift + ` : new terminal  
+ctrl + shift + e : file explorer tap  
+ctrl + tap : tap move  
 
 
 
