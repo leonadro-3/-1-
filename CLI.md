@@ -35,7 +35,18 @@ ctrl + shift + ` : new terminal
 ctrl + shift + e : file explorer tap  
 ctrl + tap : tap move  
 
+```
+@echo 1
+```
+> 명령줄 없이 결과만 표시되어 지저분 하지 않음. 모든 명령어에 @을 사용함.  
 
+```
+@echo "drive info and windows version"
+@vol
+@ver
+```
+
+> 미리 만들어 놓고 해당 명령어에 대한 설명을 추가하는 식으로 .bat 파일을 만들 수도 있다.  
 
 ### git bash
 ### node (cli-api)
