@@ -65,6 +65,15 @@ set (변수명)=(변수 데이터)
 :: : 주석처리  
 rem : 주석처리  
 
+```
+set var=time(time cmd 명령어)
+rem @echo %time%
+```
+
+> 결과를 보면 %time%은 time의 실행 결과인 현재 시간을 지칭하는 것을 알 수 있다.
+
+
+
 
 
 ### git bash
