@@ -48,6 +48,25 @@ ctrl + tap : tap move
 
 > 미리 만들어 놓고 해당 명령어에 대한 설명을 추가하는 식으로 .bat 파일을 만들 수도 있다.  
 
+
+```
+ps: new-item example.bat
+@echo "no info"
+ps: new-item example_1.bat
+set var=example
+%var%
+@echo %var%
+```
+
+> 두 개의 .bat을 만들고 example.bat을 변수로 집어넣어 example_1.bat을 실행할 때 사용할 수 있다.
+
+set (변수명)=(변수 데이터)  
+%변수명% : 해당 변수 데이터
+:: : 주석처리  
+rem : 주석처리  
+
+
+
 ### git bash
 ### node (cli-api)
 https://nodejs.org/api/cli.html
