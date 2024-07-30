@@ -1,6 +1,9 @@
 ### 배치 스크립트
 ### 파워쉘
-### cmd 활용 (batch script)
+
+
+
+### cmd 활용 (batch script) https://www.youtube.com/watch?v=Qn0aq6XjjA8
 
 [참고] https://nilssoderman.com/downloads/  
 [batch runner] : vs code에서도 .bat을 실행할 수 있게 해준다. (https://marketplace.visualstudio.com/items?itemName=NilsSoderman.batch-runner)  
