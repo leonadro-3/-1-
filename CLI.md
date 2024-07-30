@@ -11,6 +11,13 @@ powershell : New-Item example.bat
 
 > example.bat 파일이 만들어진다.
 
+```
+echo hello batch
+```
+
+> ctrl + j을 눌러 콘솔창을 열고 example.bat tap에서 f5를 누르면 실행이 된다.
+
+ 
 
 
 
