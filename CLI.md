@@ -79,8 +79,21 @@ rem @echo %time%
 
 > 결과를 보면 %time%은 time의 실행 결과인 현재 시간을 지칭하는 것을 알 수 있다.
 
+```
+@echo off
+set filename=test.txt
+echo The file name is %filename%.
+```
 
+> @echo off로 계속 하여 실행 결과를 출력하게 하고 filename을 변수로 set한 이후 echo로 해당 변수를 가져다가 사용함.  
 
+```
+const filename = 'test.txt';
+console.log(`this filename is ${filename}`);
+```
+
+> 자바스크립트에서 템플릿 리터럴 사용법과 흡사하다. 차이점은 변수를 어떻게 선언하여 가져오느냐이다.  
+> 그외에도 파이썬, C++에서도 string의 템플릿 리터럴이 사용된다.  
 
 
 ### git bash
