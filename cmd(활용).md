@@ -1,15 +1,6 @@
-### 파워쉘
-
-
-
-
-
-
-
-
 ### cmd 활용 (batch script) https://www.youtube.com/watch?v=Qn0aq6XjjA8
 
-### cmd echo on/off, set, %var% 의미미
+### cmd echo on/off, set, %var% 의미
 
 [참고] https://nilssoderman.com/downloads/  
 [batch runner] : vs code에서도 .bat을 실행할 수 있게 해준다. (https://marketplace.visualstudio.com/items?itemName=NilsSoderman.batch-runner)  
@@ -140,9 +131,4 @@ console.log(`this filename is ${filename}`);
 한 가지 더 좋은 방법이 있다. 남들이 이해하지 못하는 방식으로 기록을 하면 된다. 근데 그것도 사람인 이상 언젠가 알게 되지 않을까?  
 마지막 방법이 있다. 사람이 아니면 된다.  (정신병자들이 정신병자인 이유~)
 
-### git bash
-### node (cli-api)
-https://nodejs.org/api/cli.html
-### web console (DOM)
-### unreal engine console (C++)
-### blender console (python)
+
