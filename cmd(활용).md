@@ -101,6 +101,7 @@ console.log(`this filename is ${filename}`);
 만약 그러한 상황에 놓인 컴퓨터라면 당연히 정상적인 작동은 되지 않겠지만 최소한의 기능만 남겨두고 섞어 버린다면 다시 맞추는 데 걸리는 예상 시간은 몇 시간일까?  
 근데 심지어 몇몇 값들이 훼손되어 있다면 과연 얼마나 많은 데이터를 다시 복구할 수 있을까? 라는 복구 알고리즘 모델 추천해달라고 코파일럿에 검색하면?  
 
++ 기본적으로 set으로 잡혀져 있는 변수들이 있다.  
 
 ```
 흥미로운 상상력을 가지셨군요! 컴퓨터 시스템이 랜덤으로 경로를 수정되어 뒤섞인 상태에서 어떻게 작동할지 상상해 보는 것은 흥미로운 주제입니다. 그럼 복구 알고리즘에 대해 알아보겠습니다.
@@ -132,3 +133,47 @@ console.log(`this filename is ${filename}`);
 마지막 방법이 있다. 사람이 아니면 된다.  (정신병자들이 정신병자인 이유~)
 
 
+### cmd에서 변수 자료형 선언
+
+```
+@echo off
+set sum=10+10
+echo The sum is %sum%
+```
+
+> 결과값은 The sum is 10+10이 된다. 이를 해결하기 위해 set /?을 하여 변수 선언시 사용법을 확인해보면 /a를 추가하면 숫자로 계산된다.
+
+```
+@echo off
+set /a sum=10+10
+echo The sum is %sum%
+```
+
+> 결과값으로 The sum is 20가 출력된다.
+
+```
+@echo off
+set /a sum=10+10
+set /p pause=pause
+echo The sum is %sum%, %pause%
+```
+
+> 처음 pause가 나오고 값을 입력하여 엔터를 누르면 The sum is 20, 입력한 값으로 추가가 된다.
+
+```
+@echo off
+set /a sum=10+10
+set /a minus=10-10
+set /a mulit=10*10
+set /a divide=10/10
+
+echo 10+10=%sum%
+echo 10-10=%minus%
+echo 10*10=%mulit%
+echo 10/10=%divide%
+echo 그룹짓기
+```
+
+> 만약 한글이 깨진다면 chcp 65001로 utf-8 인코딩으로 바꾸어줘야 한다.
+
+비트를 움직이는 연산자들도 있으나 이후에 컴활 책에 다시 나올 때 다시 해보도록 하자 
