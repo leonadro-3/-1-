@@ -293,4 +293,36 @@
 |265|UsedObjects Object||
 |266|UserAccess Object||
 |267|UserAccessList Object||
+|268|Validation Object||
+|269|ValueChange Object||
+|270|VPageBreak Object||
+|271|VPageBreaks Object||
+|272|Walls Object||
+|273|Watch Object||
+|274|Watches Object||
+|275|WebOptions Object||
+|276|Window Object||
+|277|Windows Object||
+|278|Workbook Object||
+|279|WorkbookConnection Object||
+|280|WorkbookQuery Object||
+|281|Workbooks Object||
+|282|Worksheet Object||
+|283|WorksheetDataConnection Object||
+|284|WorksheetFunction Object||
+|285|Worksheets Object||
+|286|WorksheetDataConnection Object||
+|287|WorksheetFunction Object||
+|288|Worksheets Object||
+|289|WorksheetView Object||
+|290|XmlDataBinding Object||
+|291|XmlDataMap Object||
+|292|XmlDataMaps Object||
+|293|XmlNamespace Object||
+|294|XmlNamespaces Object||
+|295|XmlSchema Object||
+|295|XmlSchemas Object||
+|296|XPath Object||
+
+
 
