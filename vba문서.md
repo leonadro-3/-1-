@@ -6,6 +6,8 @@
 3. 엑셀 그래프 비주얼 베이직 참조(Excel Graph Visual Basic reference)
 ##### 컨셉(Concepts)
 ###### 개요(Overview)
+사용자에 의해 정의된 엑셀 솔루션을 개발하기 위한 중요한 컨셉들을 제공합니다. 왼쪽의 다양한 주제들을 패널을 통해 탐색할 수 있습니다. 
+####### About the PowerPivot Model Object in Excel
 ###### 함수(Functions)
 ###### 워크 북, 워크 시트(Wokbooks and worksheets)
 ###### 셀, 범위(Cells and rages)
