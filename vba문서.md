@@ -69,16 +69,21 @@ When connecting to an OLAP data source such as Analysis Services and creating OL
 ~~~
 
 ~~~
-OLAP data : Online Analytical Processing 데이터를 작업할 수 있다. 마이크로소프트가 만든 SharePoint 서비스가 있는데 이를 제공하는 서버의 메모리에 올려서 작업할 수 있다고 한다. 마찬가지로 마소에서 서비스하는 SQL Server Analysis Services에서도 사용할 수 있다.
+OLAP data : Online Analytical Processing 데이터를 작업할 수 있다.
+마이크로소프트가 만든 SharePoint 서비스가 있는데 이를 제공하는 서버의 메모리에 올려서 작업할 수 있다고 한다.
+마찬가지로 마소에서 서비스하는 SQL Server Analysis Services에서도 사용할 수 있다.
 ~~~
 
 ~~~
 Trigger the creation of a PowerPivot Model
-By default, XLSX files in Excel 2010 and Excel don't have a PPM initialized in them until the model is deemed necessary. Certain actions trigger the creation of a PPM if there is no existing model in the workbook. The following sections describe the actions that will trigger the creation of a PPM when it does not exist in the workbook.
+By default, XLSX files in Excel 2010 and Excel don't have a PPM initialized in them until the model is deemed necessary.
+Certain actions trigger the creation of a PPM if there is no existing model in the workbook.
+The following sections describe the actions that will trigger the creation of a PPM when it does not exist in the workbook.
 ~~~
 
 ~~~
-
+파워피봇 모델 생성시
+기본적으로 2010년 버전 엑셀에서 XLSX 파일들은 ppm을 초기화하면 안된다.
 ~~~
 
 
