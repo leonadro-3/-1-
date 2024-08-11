@@ -211,3 +211,19 @@
 |185|PivotLines Object||
 |186|PivotTable Object||
 |187|PivotTableChangeList Object||
+|188|PivotTables Object||
+|189|PivotValueCell Object||
+|190|PlotArea Object||
+|191|Point Object||
+|192|Points Object||
+|193|ProtectedViewWindow Object||
+|194|ProtectedViewWindows Object||
+|195|Protection Object||
+|196|PublishObject Object||
+|197|PublishObjects Object||
+|198|Queries Object||
+|199|QueryTable Object||
+|200|QueryTables Object||
+
+
+
