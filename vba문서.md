@@ -1,4 +1,7 @@
 ## vba 문서 요약하기
+
+## 처음 공부시 크게 중요하지 않은 챕터
+---------------------------------------
 ### 2024.08.08 (https://learn.microsoft.com/en-us/office/vba/api/overview/excel)
 #### 목차
 1. 컨셉(Concpts)
@@ -7,87 +10,17 @@
 ##### 컨셉(Concepts)
 ###### 개요(Overview)
 사용자에 의해 정의된 엑셀 솔루션을 개발하기 위한 중요한 컨셉들을 제공합니다. 왼쪽의 다양한 주제들을 패널을 통해 탐색할 수 있습니다. 
-###### About the PowerPivot Model Object in Excel
-~~~
-Lean about the powerPivot add-in model and its object model in excel.
-The powerpivot add-in enables you to visually build your own cubes.
-A data cube is an array of data defined in dimensions or layers.
-The Model object in Excel implemented by the Powerpivot add-in provides the foundation to load and combine source data from several data sources for data analysis on the destop, including relational databases,multidimensional sources, cloud services, data feeds, excel files, txt files, and data from the web.
-Excel integrates additional data sources and enables the ability to combine data from multiple data sources.
-~~~
-~~~
-> 파워 피봇의 add-in 모델과 객체 모델에 대해 알아보자
-> 파워 피봇의 add-in은 큐브를 쌓는 것과 같다.
-> 데이터가 들어간 큐브는 차원이나 레이어로 정의된 배열이다.
-> 엑셀의 모델 객체는 파워 피봇의 add-in에 의해 구현된다. 
-> 파워 피봇은 데이터를 로드하거나 소스 데이터를 결합하는 기반이 되고
-> desktop에서 관계형 데이터 베이스, 다차원 소스, 클라우드 서비스, 데이터 피드 등과같은 데이터 분석 작업을 할 수 있게 해준다.
-> 엑셀은 데이터를 통합하고 다양한 데이터 소스를 결합하는 능력을 가지고 있다.
-~~~
-
-~~~
-The creation and deletion of the PowerPivot Model(PPM) is triggered by user exposed actions and cannot be created directly by the developer.
-~~~
-
-~~~
-PPM의 생성과 삭제는 사용자가 사용할 수 있으며 개발자가 직접 사용하는 것이 아니다.
-~~~
-
-~~~
-Relationships defined
-Throughout this aticle, we will refer to the connection between two tables that establishes how the data should be correlated as relationships.
-
-Relationships join together data from previously unrelated data sources. Each relationship has a primary Key and a forign key. Relationships allow the data to be joined together into a single model. This allows for:
-
-Filtering data in one table by data in a related table
-Filtering data by related columns
-Integrating columns from multiple tables into a PivotTable/PivotChart
-Keeping workbooks smaller by not having to repeat data
-~~~
-
-~~~
-관계 정의
-이 문서를 통해 두 테이블간의 연결이 되는지 알 수 있습니다.
-서로 관계가 없던 데이터 간의 결합을 통해서 관계가 형성됩니다.
-기본키와 외부키를 통해 이루어집니다.(row, column)
-한 테이블과 관계된 다른 테이블로 필터링을 하거나 col를 기준으로 필터링 할 수도 있다.
-피봇 테이블이나 차트를 이용하여 다시 데이터를 작성하지 않아도 원하는 col를 가지고 작업할 수 있어workbook을 작게 유지할 수 있다.   
-~~~
-
-~~~
-Single Models Only
-Excel with the PowerPivot add-in creates a single model in the workbook to which it can add data sources, create, modify, and relate tables. There can only be a single model in a workbook.
-~~~
-
-~~~
-하나의 workbook에서 하나의 파워피봇만 생성하여 사용할 수 있다. 
-~~~
-
-~~~
-Working with OLAP data sources
-When connecting to an OLAP data source such as Analysis Services and creating OLAP PivotTables, PivotCharts, Slicers or Cube functions, no model is created. Workbooks created with the PowerPivot add-in can be uploaded to SharePoint, loaded in memory on the server, and accessed by other workbooks as if it were a normal instance of SQL Server Analysis Services.
-~~~
-
-~~~
-OLAP data : Online Analytical Processing 데이터를 작업할 수 있다.
-마이크로소프트가 만든 SharePoint 서비스가 있는데 이를 제공하는 서버의 메모리에 올려서 작업할 수 있다고 한다.
-마찬가지로 마소에서 서비스하는 SQL Server Analysis Services에서도 사용할 수 있다.
-~~~
-
-~~~
-Trigger the creation of a PowerPivot Model
-By default, XLSX files in Excel 2010 and Excel don't have a PPM initialized in them until the model is deemed necessary.
-Certain actions trigger the creation of a PPM if there is no existing model in the workbook.
-The following sections describe the actions that will trigger the creation of a PPM when it does not exist in the workbook.
-~~~
-
-~~~
-파워피봇 모델 생성시
-기본적으로 2010년 버전 엑셀에서 XLSX 파일들은 ppm을 초기화하면 안된다.
-~~~
-
-
-###### 함수(Functions)
+###### 1.About the PowerPivot Model Object in Excel 
+###### 2.About coauthoring
+###### 3.Language-specific properties, methods, and functions 
+###### 4.OLE DB for OLAP properties used by Excel 
+###### 5.Programming for the single document interface in excel
+> 1~5 의 내용은 수많은 object 들에 대한 정의나 추상적인 정의를 나열하고 있다. 영어로 엑셀 문서에 무료로 자원봉사를 하고 싶다면 굳이 말리진 않겠다.
+---------------------------------------
+---------------------------------------
+##### 함수(Functions)
+###### 
+---------------------------------------
 ###### 워크 북, 워크 시트(Wokbooks and worksheets)
 ###### 셀, 범위(Cells and rages)
 ###### 제어, 대화박스, 서식(Controls, dialog boxes, and forms)
@@ -97,6 +30,8 @@ The following sections describe the actions that will trigger the creation of a 
 ###### 엑셀 성능(Excel performance)
 
 ##### 객체 모델(Object model)
+## 처음 공부시 크게 중요하지 않은 챕터
+---------------------------------------
 ###### 개요(Overview)
 
 (https://tabletomarkdown.com/generate-markdown-table/)
@@ -405,5 +340,5 @@ The following sections describe the actions that will trigger the creation of a 
 |295|XmlSchemas Object||
 |296|XPath Object||
 
-
+---------------------------------------
 
