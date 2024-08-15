@@ -19,7 +19,22 @@
 ---------------------------------------
 ---------------------------------------
 ##### 함수(Functions)
-###### 
+###### Using the Solver VBA Functions(VBA 함수들을 이용하여 실재로 사용하는 예제들)
+
+###### SolverAdd Function
+###### SolverChange Function
+###### SolverDelete Function
+###### SolverFinish Function
+###### SolverFinishDialog Function
+###### SolverGet Function
+###### SolverLoad Function
+###### SolverOk Function
+###### SolverOkDialog Function
+###### SolverOptions Function
+###### SolverReset Function
+###### SolverSave Function
+###### SolverSolve Function
+---------------------------------------
 ---------------------------------------
 ###### 워크 북, 워크 시트(Wokbooks and worksheets)
 ###### 셀, 범위(Cells and rages)
