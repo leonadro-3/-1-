@@ -20,6 +20,8 @@
 ---------------------------------------
 ##### 함수(Functions)
 ###### Using the Solver VBA Functions(VBA 함수들을 이용하여 실재로 사용하는 예제들)
+엑셀에 solver 기능이 있는데 solver 사용시 실행되는 함수들이라고 생각하면 된다. 이런식으로 어떤 함수가 GUI 제공되어 직관적으로 알 수 있다.   
+예를들어 pyautogui의 경우 이러한 gui 기반의 기능을 조합하여 사용하는 것이라고 생각하면 된다.   
 
 ###### SolverAdd Function
 ###### SolverChange Function
