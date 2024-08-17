@@ -27,3 +27,72 @@ vba를 저장하면 .xlsx파일로 저장이 되는데 사실 vba 코드만 적�
 https://stackoverflow.com/questions/42345254/excel-solver-password-what-is-it-and-where-can-it-be-acquired-bought
 이는 solver를 개발한 유료회사의 소스이기 때문이다.    
 
+## vba에 존재하는 파일 확장자명들
+
+통합문서 .xlsx  
+모듈파일 .bas  
+클래스파일 .cls  
+폼파일 .frm  
+솔버파일 .xlam (접근 x)  
+
+![11](https://github.com/user-attachments/assets/81c00c29-d9e1-4e11-b003-a491ccd4231d)
+![22](https://github.com/user-attachments/assets/73e60ba3-1a12-4791-a376-21c221565bab)
+![파일들](https://github.com/user-attachments/assets/6162049d-2016-46ec-ad65-0ac06acc4e6b)
+
+하나씩 열어보자
+
+Class1.cls  
+
+```
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+END
+Attribute VB_Name = "Class1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+```
+
+Module1.bas  
+
+```
+Attribute VB_Name = "Module1"
+```
+
+UserForm1.frm  
+
+```
+VERSION 5.00
+Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} UserForm1 
+   Caption         =   "UserForm1"
+   ClientHeight    =   3036
+   ClientLeft      =   108
+   ClientTop       =   456
+   ClientWidth     =   4584
+   OleObjectBlob   =   "UserForm1.frx":0000
+   StartUpPosition =   1  '¼ÒÀ¯ÀÚ °¡¿îµ¥
+End
+Attribute VB_Name = "UserForm1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+```
+
+해당 값들이 어떤 의미인지 현재로써는 모르지만 어떤 object나 class를 상속받아 해당하는 abttribute 값의 상수를 입력하면 excel이 해당 파일을 읽을 때 사용하는 것으로 보인다.  
+
+
+## vba 단축키
+vs code로 사용할 수 없기 때문에 단축키를 사용해야 한다.  
+![스크린샷 2024-08-17 165951](https://github.com/user-attachments/assets/5616d35a-ae65-4bce-ad50-1de1cf4860e2)
+
+vs code와 차이점으로 스니펫이 tap이 아니라 ctrl + space bar를 눌러야 한다. enter를 눌러도 되지만 커서의 위치가 바뀐다.   
+Application를 vs code처럼 입력하고 싶다면 a + ctrl + j + Application + ctrl + space bar를 눌러야 한다.  
+
+## vba 진짜 간략한 튜토리얼 (https://learn.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office#when-to-use-vba-and-why)
+
+
+
+
