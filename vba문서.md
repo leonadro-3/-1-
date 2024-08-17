@@ -20,18 +20,12 @@
 ---------------------------------------
 ##### 함수(Functions)
 ###### Using the Solver VBA Functions(VBA 함수들을 이용하여 실재로 사용하는 예제들)
-엑셀에 solver 기능이 있는데 solver 사용시 실행되는 함수들이라고 생각하면 된다. 이런식으로 어떤 함수가 GUI 제공되어 직관적으로 알 수 있다.
-
+엑셀에 solver 기능이 있는데 solver 사용시 실행되는 함수들이라고 생각하면 된다. 이런식으로 어떤 함수가 GUI 제공되어 직관적으로 알 수 있다. 
 ![1](https://github.com/user-attachments/assets/fd9d481a-a92f-4e83-89d6-017bffcf36e9)
 ![2](https://github.com/user-attachments/assets/8f1aa71a-ca2f-451c-b0e3-8f646064f35b)
 ![3](https://github.com/user-attachments/assets/4dcdb192-4082-4d6a-9b1e-d09c416b2ac3)
 ![4](https://github.com/user-attachments/assets/6f3caad5-724f-4e5e-bbcd-b9ad17608953)
 ![5](https://github.com/user-attachments/assets/99bc1942-e66e-476a-abdd-abd628a92c2e)
-
-예제  
-
-
-
 
 ###### SolverAdd Function
 ###### SolverChange Function
