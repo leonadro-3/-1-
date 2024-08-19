@@ -116,4 +116,19 @@ Range("G5:G11").Select
 > Cell 선택, 특정 셀 범위 지정, 셀에 데이터 입력, 주석 입력, 매크로 사용시 모르는 코드가 있을 때 이를 검색하는 방법에 대해 알아보았다.
 > 맨 땅에 삽질을 해도 어떻게 삽질을 하느냐에 따라 숙련도가 달라진다.   
 
-###
+### 예제 코드
+
+```
+Sub Macro1()
+    Worksheets(1).Range("A1").Value = "Wow!"
+    Worksheets(1).Range("A1").Borders.LineStyle = xlDouble
+End Sub
+```
+기존의 매크로를 모두 삭제하거나 새로운 엑셀 통합문서를 만들어서 위 코드를 모듈로 생성하여 실행하거나 매크로 기록를 이용하여 다시 새로운 모듈을 만들어서 실행하면 된다.    
+그러면 매크로 기록으로 입력된 과정보다 좀 더 줄어든 코드로 특정 위치에 값을 입력할 수 있다는 것을 알 수 있다.    
+
+### Worksheets(1).Range("A1").Value = "Wow!"
+첫번째 워크시트 즉, Sheet1에 있는 A1에 해당하는 셀에 value로 Wow!를 입력한다.    
+
+###  Worksheets(1).Range("A1").Borders.LineStyle = xlDouble
+Sheet1에 있는 A1에 해당하는 셀의 보더의 스타일을 변경한다.    
