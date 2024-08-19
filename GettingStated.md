@@ -23,7 +23,7 @@ Macro()는 보통 함수 표현이다. F12를 누르고 console 탭에서 alert(
 ![1](https://github.com/user-attachments/assets/7b9ecba6-015f-4a65-aedf-bcbe5e060cdd)
 #### 매크로 기록시 설정
 ![2](https://github.com/user-attachments/assets/6006efdc-9a4e-4ff5-946e-f430f6eb6eb7)
-#### 아무런 작업후 매크로 편집으로 VBA 코드 확인
+#### 아무 작업후 매크로 편집으로 VBA 코드 확인
 ![3](https://github.com/user-attachments/assets/95341636-6521-4e44-b34d-46905c6c020c)
 ![4](https://github.com/user-attachments/assets/fafe405a-218a-4fda-9188-f68b4a2de259)
 #### 새로운 시트를 만들고 해당 작업을 반복
